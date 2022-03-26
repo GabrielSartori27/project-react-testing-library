@@ -6,7 +6,7 @@ import App from '../App';
 import renderWithRouter from '../renderWithRouter';
 
 describe('Testes do componente App', () => {
-  test('Verifica se os links de navegação estão presentes.', () => {
+  it('Verifica se os links de navegação estão presentes.', () => {
     render(
       <MemoryRouter><App /></MemoryRouter>,
     );
